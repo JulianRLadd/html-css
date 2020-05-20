@@ -35,8 +35,11 @@ label, .fancy{
     color:#eb963d;
     text-shadow: 0 0 3px #190500, 0 0 5px #fffcc0;
 }
-form{
+form,input{
     font-size: 1.2em;
+    margin:2px;
+    border-radius: 20%;
+    padding:3px;
 }
 a{
     text-decoration: none;
