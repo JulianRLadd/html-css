@@ -32,7 +32,7 @@ a{
     text-decoration: none;
 }
 
-.sidebar{
+p{
     font-size: 50px;
     opacity: 0;
     text-shadow: 0 0 2px #631a08, 0 0 4px #dbd334;
@@ -48,6 +48,11 @@ header{
     flex: 0 1 10%;
 }
 
+.mySlides {
+    display:none;
+    max-height:400px;
+}
+
 main{
     display: flex;
     flex-direction: row;
@@ -56,34 +61,29 @@ main{
 
 .mainer{
     display: flex;
-    flex-direction: column;
-    flex: 1 1 700px;
+    flex-flow:row wrap;
+    align-content: space-around;
     justify-content: center;
-    align-items: center;
+    flex: 0 2 65%;
     background: url(assets/animated-lighning-bolt-strike-storm-gif-1.gif);
 }
 
 .mainer img{
-    max-width: 65%;
-    border-radius: 50%;
+    height: 150px;
+    flex: 0 2 100px;
+    padding: 4px;
+    margin:4px;
 }
-.bio{
-    font-family: fantasy;
-    font-size: 1.1em;
-    color:#aca0da;
-    text-align: center;
-}
-ul{
-    list-style-type: none;
-}
+
 .leftLink{
     background: url("assets/OrnateFeistyBumblebee-size_restricted.gif");
     background-size: 100% 100%;
     order:-1;
     flex: 1 2 12.5%;
     text-align: center;
+    align-content: center;
     transition: all 1s ease;
-    padding-top: 10%;
+    padding-top: 13%;
 }
 
 .leftLink p:hover{
@@ -97,6 +97,7 @@ ul{
 .rightLink{
     background: url("assets/OrnateFeistyBumblebee-size_restricted.gif");
     background-size: 100% 100%;
+    align-content: center;
     flex: 1 2 12.5%;
     text-align: center;
     padding-top: 10%;

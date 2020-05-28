@@ -27,12 +27,25 @@ h1, h2{
     color:#eb963d;
     text-shadow: 0 0 3px #190500, 0 0 5px #fffcc0;
 }
-
+label, .fancy{
+    margin:auto;
+    font-family: 'Pacifico', cursive;    display: block;
+    text-align: center;
+    font-size: 1.0em;
+    color:#eb963d;
+    text-shadow: 0 0 3px #190500, 0 0 5px #fffcc0;
+}
+form,input{
+    font-size: 1.2em;
+    margin:2px;
+    border-radius: 20%;
+    padding:3px;
+}
 a{
     text-decoration: none;
 }
 
-.sidebar{
+p{
     font-size: 50px;
     opacity: 0;
     text-shadow: 0 0 2px #631a08, 0 0 4px #dbd334;
@@ -56,7 +69,6 @@ main{
 
 .mainer{
     display: flex;
-    flex-direction: column;
     flex: 1 1 700px;
     justify-content: center;
     align-items: center;
@@ -67,15 +79,7 @@ main{
     max-width: 65%;
     border-radius: 50%;
 }
-.bio{
-    font-family: fantasy;
-    font-size: 1.1em;
-    color:#aca0da;
-    text-align: center;
-}
-ul{
-    list-style-type: none;
-}
+
 .leftLink{
     background: url("assets/OrnateFeistyBumblebee-size_restricted.gif");
     background-size: 100% 100%;
@@ -99,7 +103,7 @@ ul{
     background-size: 100% 100%;
     flex: 1 2 12.5%;
     text-align: center;
-    padding-top: 10%;
+    padding-top: 13%;
 }
 
 .rightLink p:hover{
